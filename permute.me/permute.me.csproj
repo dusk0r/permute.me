@@ -398,6 +398,8 @@
   <ItemGroup>
     <Compile Include="IndexModule.cs" />
     <Compile Include="NancyBootstrapper.cs" />
+    <Compile Include="Permutators\LexicalPermutator.cs" />
+    <Compile Include="Permutators\Utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
