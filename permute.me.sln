@@ -3,6 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "permute.me", "permute.me\permute.me.csproj", "{451D57B6-337C-4FA9-AADC-D36F6252B736}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "permute.me.UnitTests", "permute.me.UnitTests\permute.me.UnitTests.csproj", "{BE30A8C7-D614-4E67-8522-494101FF35C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A4607039-C43E-4B0F-AB04-BD46027F260E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +22,10 @@ Global
 		{451D57B6-337C-4FA9-AADC-D36F6252B736}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{451D57B6-337C-4FA9-AADC-D36F6252B736}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{451D57B6-337C-4FA9-AADC-D36F6252B736}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE30A8C7-D614-4E67-8522-494101FF35C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE30A8C7-D614-4E67-8522-494101FF35C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE30A8C7-D614-4E67-8522-494101FF35C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE30A8C7-D614-4E67-8522-494101FF35C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
